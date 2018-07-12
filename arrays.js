@@ -20,6 +20,6 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 function accessElementInArray(array, index){
-  retrun(array[3])
+  return (array[3])
 }
   

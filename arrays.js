@@ -9,13 +9,14 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array
 }
 
-function addElementToEndOfArray(array) {
-  element = [array,..."foo"];
-  return(element);
+function addElementToEndOfArray(array, element) {
+  return [array,...element]
+  return array
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  return array.push(element);  
+  array.push(element)
+  return array
 }
 
 function accessElementInArray(array, index){
